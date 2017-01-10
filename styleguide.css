@@ -438,26 +438,26 @@ body {
 
 .hd-xl, h1 {
   font-size: 2.5rem;
-  line-height: 3rem;
+  line-height: 3;
   margin-bottom: 1rem; }
 
 .hd-l, h2 {
   font-size: 2.25rem;
-  line-height: 2.75rem;
+  line-height: 2.75;
   margin-bottom: 1rem; }
 
 .hd-m, h3 {
   font-size: 1.75rem;
-  line-height: 2.25rem;
+  line-height: 2.25;
   margin-bottom: 1rem; }
 
 .hd-s, h4 {
   font-size: 1.5rem;
-  line-height: 2rem; }
+  line-height: 2; }
 
 .hd-xs, h5 {
   font-size: 1.25rem;
-  line-height: 1.75rem; }
+  line-height: 1.75; }
 
 .hd-xxs, h6 {
   font-size: .875rem;
@@ -513,7 +513,6 @@ a[disabled],
 .btn {
   display: inline-block;
   padding: .4rem .75rem;
-  border-radius: 3px;
   border-width: 0;
   border-style: solid;
   border-color: currentColor;
@@ -655,11 +654,11 @@ a[disabled],
   fill: #A7AFB6; }
 
 .dat-import--input {
-  height: 3rem;
+  height: 2.25rem;
   padding-right: 1rem;
   padding-left: 3rem;
   border-radius: 2px;
-  border: 1px solid #24943A;
+  border: 1px solid #293648;
   color: #7C8792;
   text-transform: uppercase; }
   .dat-import--input:hover, .dat-import--input:focus, .dat-import--input:active {
