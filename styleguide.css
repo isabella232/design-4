@@ -493,14 +493,14 @@ a:focus {
   .link--green:hover, .link--green:focus {
     color: #199e33; }
 
-.link--warning {
+.link--yellow {
   color: #f2cd02; }
-  .link--warning:hover, .link--warning:focus {
+  .link--yellow:hover, .link--yellow:focus {
     color: #c4a500; }
 
-.link--danger {
+.link--red {
   color: #D8524E; }
-  .link--danger:hover, .link--danger:focus {
+  .link--red:hover, .link--red:focus {
     color: #B33C38; }
 
 a[disabled],
@@ -538,21 +538,21 @@ a[disabled],
     color: #FFFFFF;
     background-color: #199e33; }
 
-.btn--info {
+.btn--blue {
   background-color: #007fff; }
-  .btn--info:hover, .btn--info:focus {
+  .btn--blue:hover, .btn--blue:focus {
     color: #FFFFFF;
     background-color: #0066cc; }
 
-.btn--warning {
+.btn--yellow {
   background-color: #f2cd02; }
-  .btn--warning:hover, .btn--warning:focus {
+  .btn--yellow:hover, .btn--yellow:focus {
     color: #FFFFFF;
     background-color: #c4a500; }
 
-.btn--danger {
+.btn--red {
   background-color: #D8524E; }
-  .btn--danger:hover, .btn--danger:focus {
+  .btn--red:hover, .btn--red:focus {
     color: #FFFFFF;
     background-color: #B33C38; }
 
@@ -1807,7 +1807,7 @@ textarea {
     height: 72px;
     padding: 22px 10px; }
 
-.color-block--info {
+.color-block--blue {
   flex: 0 1 0;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -1817,16 +1817,16 @@ textarea {
   font-weight: bold;
   font-size: 18px;
   border-radius: 6px; }
-  .color-block--info:hover {
+  .color-block--blue:hover {
     background-color: #003366; }
-  .color-block--info::before {
+  .color-block--blue::before {
     content: "#007fff";
     display: block;
     width: 100%;
     height: 72px;
     padding: 22px 10px; }
 
-.color-block--danger {
+.color-block--red {
   flex: 0 1 0;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -1836,16 +1836,16 @@ textarea {
   font-weight: bold;
   font-size: 18px;
   border-radius: 6px; }
-  .color-block--danger:hover {
+  .color-block--red:hover {
     background-color: #741c19; }
-  .color-block--danger::before {
+  .color-block--red::before {
     content: "#D8524E";
     display: block;
     width: 100%;
     height: 72px;
     padding: 22px 10px; }
 
-.color-block--warning {
+.color-block--yellow {
   flex: 0 1 0;
   margin-right: 1rem;
   margin-bottom: 1rem;
@@ -1855,9 +1855,9 @@ textarea {
   font-weight: bold;
   font-size: 18px;
   border-radius: 6px; }
-  .color-block--warning:hover {
+  .color-block--yellow:hover {
     background-color: #5a4c01; }
-  .color-block--warning::before {
+  .color-block--yellow::before {
     content: "#f2cd02";
     display: block;
     width: 100%;
