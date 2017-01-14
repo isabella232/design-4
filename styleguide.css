@@ -1575,16 +1575,29 @@ textarea {
   background-color: #F6F7F8;
   border-bottom: 1px solid #E9EBEC;
   height: 60px; }
-  .sg-header h1 {
-    margin: 0;
-    line-height: 58px; }
-    .sg-header h1 span {
-      color: #7C8792; }
   .sg-header .sg-container {
     padding-top: 0; }
-  .sg-header img {
-    display: inline-block;
-    vertical-align: -5px; }
+
+.dat-logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #293648;
+  letter-spacing: .025em; }
+  .dat-logo img {
+    display: block;
+    max-width: 2rem;
+    margin-right: .75rem;
+    transition: transform .5s ease-in-out; }
+  .dat-logo span {
+    margin-left: .25rem;
+    color: #7C8792; }
+  .dat-logo:hover, .dat-logo:focus {
+    color: #293648; }
+    .dat-logo:hover img, .dat-logo:focus img {
+      transform: rotate(360deg); }
 
 .sg-main {
   padding-top: 1.5rem; }
